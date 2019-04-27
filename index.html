@@ -15,6 +15,10 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
   </head>
@@ -203,6 +207,36 @@
         </div>
       </div>
     </div>
+
+    <!-- Skill Sets -->
+    <div class="section" style="background-color: #101010;" id="skillsets">
+      <div class="container">
+        <div class="row">
+          <h1 class="center white-text">
+            My Skills
+          </h1>
+        </div>
+        <div class="row center">
+          <div class="col s12 m12 l3">
+            <img class="responsive-img" />
+            <i class="fab fa-html5 fa-10x"></i>
+          </div>
+          <div class="col s12 m12 l3">
+            <img class="responsive-img" />
+            <i class="fab fa-css3-alt fa-10x"></i>
+          </div>
+          <div class="col s12 m12 l3">
+            <img class="responsive-img" />
+            <i class="fab fa-js-square fa-10x"></i>
+          </div>
+          <div class="col s12 m12 l3">
+            <img class="responsive-img" />
+            <i class="fab fa-node fa-10x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- FIXED ACTION BUTTON -->
     <div class="fixed-action-btn vertical">
       <a class="btn-floating btn-large  blue-grey darken-4">
@@ -210,27 +244,87 @@
       </a>
       <ul>
         <li>
-          <a class="btn-floating  blue darken-4"
+          <a
+            class="btn-floating  blue darken-4"
+            href="https://www.facebook.com/stevetravis11"
             ><i class="fab fa-facebook-f"></i
           ></a>
         </li>
         <li>
-          <a class="btn-floating cyan lighten-1"
+          <a
+            class="btn-floating cyan lighten-1"
+            href="https://twitter.com/stravis"
             ><i class="fab fa-twitter"></i
           ></a>
         </li>
         <li>
-          <a class="btn-floating grey darken-3">
+          <a
+            class="btn-floating grey darken-3"
+            href="https://github.com/stravis11"
+          >
             <i class="fab fa-github"></i
           ></a>
         </li>
         <li>
-          <a class="btn-floating blue-grey lighten-1"
+          <a
+            class="btn-floating blue-grey lighten-1"
+            href="https://www.linkedin.com/in/stevetravis11/"
             ><i class="fab fa-linkedin-in"></i
           ></a>
         </li>
       </ul>
     </div>
+    <!-- Contact Me Section -->
+    <div class="container" id="contact">
+      <div class="row">
+        <div class="col m10 offset-m1 s12">
+          <h2 class="center-align">Contact Me</h2>
+          <div class="row">
+            <form class="col m8 offset-m2 s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="name" type="text" />
+                  <label for="name">Name</label>
+                </div>
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="form-input" />
+                  <label for="email">Email</label>
+                </div>
+                <div class="input-field col s12">
+                  <textarea
+                    id="message"
+                    class="materialize-textarea"
+                  ></textarea>
+                  <label for="message">Message</label>
+                </div>
+              </div>
+
+              <div class="divider"></div>
+              <div class="row">
+                <div class="col m12">
+                  <p class="right-align">
+                    <button
+                      class="btn btn-large waves-effect waves-light"
+                      type="button"
+                      name="action"
+                    >
+                      Send Message
+                    </button>
+                  </p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Section -->
+    <footer class="section page-footer black">
+      <div class="container center-align">
+        &#169; Steve Travis 2019
+      </div>
+    </footer>
+
     <script
       src="https://code.jquery.com/jquery-3.4.0.min.js"
       integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
