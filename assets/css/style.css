@@ -5,7 +5,7 @@ body {
 
 #landing {
   height: 100vh;
-  background-image: url("/assets/images/laptop.jpg");
+  background-image: url("../images/laptop.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
