@@ -3,6 +3,9 @@ body {
   color: rgba(255, 255, 255, 0.8);
   font-family: "Lato", sans-serif;
 }
+a {
+  color: inherit;
+}
 
 #landing {
   height: 100vh;
@@ -18,5 +21,17 @@ body {
 }
 
 #contact {
+  color: white;
+}
+
+.input-field [type="text"] {
+  color: white;
+}
+
+.input-field [type="email"] {
+  color: white;
+}
+
+.materialize-textarea {
   color: white;
 }
