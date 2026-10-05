@@ -1,436 +1,181 @@
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Steve Travis | My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Steve Travis</title>
+  <meta name="description" content="Steve Travis builds Linux desktop tools, real-time dashboards and self-hosted AI infrastructure. Atlanta, GA.">
+  <meta property="og:title" content="Steve Travis">
+  <meta property="og:description" content="Linux desktop tools, real-time dashboards and self-hosted AI infrastructure.">
+  <meta property="og:url" content="https://stevetrav.is/">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0f1115">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <a class="skip" href="#work">Skip to projects</a>
 
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-  </head>
-  <body>
-    <!-- Navbar -->
-    <div class="navbar-fixed">
-      <nav class="black">
-        <div class="container">
-          <div class="nav-wrapper">
-            <a href="#" class="brand-logo">My Portfolio</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down" id="navList">
-              <li><a href="#landing">Home</a></li>
-              <li><a href="#intro">About Me</a></li>
-              <li><a href="#work">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li> <a href="./assets/images/resume.pdf">Resume</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-          </div>
-          <ul class="sidenav" id="mobile-demo">
-            <li><a href="#landing">Home</a></li>
-            <li><a href="#intro">About Me</a></li>
-            <li><a href="#work">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li> <a href="./assets/images/resume.pdf">Resume</a></li>
-          </ul>
-    <!-- Landing Screen -->
-    <div class="section" id="landing">
-      <h5 id="mainText" class="center">My Name Is</h5>
-      <h1 style="color: white;" class="center">STEVE <b>TRAVIS</b></h1>
-      <h6 id="mainText" class="center">A Full Stack Web Developer</h6>
-    </div>
-    <!-- Intro and service -->
-    <div id="intro" class="section black">
-      <div class="container">
-        <div class="row">
-          <div class="col s12">
-            <h2 class="center header">
-              "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.""
+  <header class="bar">
+    <nav class="bar-inner" aria-label="Primary">
+      <a class="brand" href="#top">stevetrav.is</a>
+      <ul class="workspaces">
+        <li><a href="#work" data-ws="work">1 work</a></li>
+        <li><a href="#about" data-ws="about">2 about</a></li>
+        <li><a href="#more" data-ws="more">3 more</a></li>
+        <li><a href="#contact" data-ws="contact">4 contact</a></li>
+      </ul>
+      <span class="where">Atlanta, GA</span>
+    </nav>
+  </header>
 
-            </h2>
-          </div>
-        </div>
-        <div class="row center">
-          <div class="col s12 m12 l3">
-            <img class="circle responsive-img" src="./assets/images/me.jpg" />
-          </div>
-          <dic class="col s12 m12 offset-l1 l8 ">
-            <h4 class="center">Steve Travis <b>ABOUT ME</b></h4>
-            <p>
-              I’m originally from Ohio and moved to Atlanta in 1999. I’ve worked
-              in IT for almost 20 years doing everything from tech support to
-              systems administration. I am a Full Stack Web Developer and have
-              worked on several projects using various framweworks. <br />
-            </p>
-          </dic>
-        </div>
+  <main id="top" class="wrap">
+
+    <section class="hero">
+      <p class="prompt">steve@stevetrav.is <span class="tilde">~</span> $ whoami</p>
+      <h1>Steve Travis<span class="cursor" aria-hidden="true">_</span></h1>
+      <p class="lede">I build Linux desktop tools, real-time dashboards and self-hosted AI infrastructure — after 25+ years of keeping other people's systems running.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#work">./projects</a>
+        <a class="btn" href="https://github.com/stravis11">github/stravis11</a>
       </div>
-    </div>
-    <!--Parallax-->
-    <div id="p1" class="parallax-container">
-      <div class="parallax">
-        <img src="./assets/images/rocks.jpg" />
+    </section>
+
+    <section id="work" class="section" aria-labelledby="work-h">
+      <h2 id="work-h" class="label">// selected work — 2026</h2>
+      <div class="tiles">
+
+        <article class="tile is-focused">
+          <header class="tile-bar"><span class="dot" aria-hidden="true">●</span><span>~/tesla-side-display</span><span class="lang">python</span></header>
+          <div class="tile-body">
+            <h3>Tesla Side Display</h3>
+            <p>Extend a Hyprland desktop into a Tesla, tablet or any browser on the same Wi-Fi. WebRTC video, touch input over an encrypted data channel, up to three virtual monitors.</p>
+            <p class="stack">python · webrtc · qml · hyprland</p>
+            <p class="links"><a href="https://github.com/stravis11/tesla-side-display">[source]</a></p>
+          </div>
+        </article>
+
+        <article class="tile">
+          <header class="tile-bar"><span class="dot" aria-hidden="true">●</span><span>~/gpu-tester</span><span class="lang">python</span></header>
+          <div class="tile-body">
+            <h3>GPU Tester</h3>
+            <p>Native GTK4 app that stress-tests AMD and NVIDIA cards — VRAM test plus Heaven, live telemetry, webcam picture-in-picture, and HTML/PDF evidence reports.</p>
+            <p class="stack">python · gtk4 · libadwaita · mangohud</p>
+            <p class="links"><a href="https://github.com/stravis11/gpu-tester">[source]</a></p>
+          </div>
+        </article>
+
+        <article class="tile">
+          <header class="tile-bar"><span class="dot" aria-hidden="true">●</span><span>~/endless-game</span><span class="lang">javascript</span></header>
+          <div class="tile-body">
+            <h3>Endless</h3>
+            <p>A calm, procedurally generated three.js world: 10 biomes, 8 creature species, a day/night sky. Same seed, same world, forever — verified by a headless test harness.</p>
+            <p class="stack">three.js · webgl · glsl</p>
+            <p class="links"><a href="https://stravis11.github.io/endless-game/">[play]</a><a href="https://github.com/stravis11/endless-game">[source]</a></p>
+          </div>
+        </article>
+
+        <article class="tile">
+          <header class="tile-bar"><span class="dot" aria-hidden="true">●</span><span>~/avigilon-dashboard</span><span class="lang">javascript</span></header>
+          <div class="tile-body">
+            <h3>GT CamHub</h3>
+            <p>Full-stack ops dashboard for Avigilon camera systems: ArcGIS camera map, server inventory, cloud and Zabbix hardware health, role-based auth.</p>
+            <p class="stack">react · node · docker · arcgis</p>
+            <p class="links"><a href="https://github.com/stravis11/avigilon-dashboard">[source]</a></p>
+          </div>
+        </article>
+
+        <article class="tile">
+          <header class="tile-bar"><span class="dot" aria-hidden="true">●</span><span>~/dgx-spark-minimax</span><span class="lang">guide</span></header>
+          <div class="tile-body">
+            <h3>MiniMax M3 on 2× DGX Spark</h3>
+            <p>Field guide to serving a ~428B-parameter model across two NVIDIA DGX Spark nodes with vLLM, tensor parallelism and a 131K-token context.</p>
+            <p class="stack">vllm · nccl/roce · docker</p>
+            <p class="links"><a href="https://github.com/stravis11/dgx-spark-minimax-public-guide">[read]</a></p>
+          </div>
+        </article>
+
+        <article class="tile">
+          <header class="tile-bar"><span class="dot" aria-hidden="true">●</span><span>~/tuistocks</span><span class="lang">python</span></header>
+          <div class="tile-body">
+            <h3>tuistock</h3>
+            <p>Real-time stock and crypto charts in the terminal. Four panels, live Nasdaq and Coinbase feeds, volume bars, saved layouts.</p>
+            <p class="stack">python · tui</p>
+            <p class="links"><a href="https://github.com/stravis11/tuistocks">[source]</a></p>
+          </div>
+        </article>
+
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col s12 center white-text">
-            <h1><b>MY GOAL</b></h1>
-            <h4>
-              To build web apps that make a difference, continually learn, and help others learn to code.
-            </h4>
-          </div>
-        </div>
+    </section>
+
+    <section id="about" class="section split" aria-labelledby="about-h">
+      <div class="pane pane-wide">
+        <h2 id="about-h" class="cmd">$ cat about.md</h2>
+        <p>Originally from Ohio, in Atlanta since 1999. I came up through tech support and systems administration, then picked up full-stack web development — and never stopped tinkering.</p>
+        <p>Lately that means Hyprland plugins for Omarchy, GPU and hardware tooling, camera-ops dashboards, and running large language models on my own hardware.</p>
       </div>
-    </div>
-    <!--Work-->
-    <div class="section" style="background-color: rgb(54, 52, 52);" id="work">
-      <div class="container">
-        <h1 class="header text_b center">My Projects</h1>
-        <div class="row ">
-
-          <div class="col s12 m12 l4">
-              <div class="card hoverable black">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="./assets/images/newspaper.jpg" />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator purple-text text-lighten-5"
-                    >Mongo News Scraper
-                    <i class="mdi-navigation-more-vert right"></i
-                  ></span>
-                  <p>
-                      <a
-                      class="purple-text text-lighten-5"
-                      href="https://mongonews-scraper-nyt.herokuapp.com/"
-                      >Live Link</a
-                    >
-                    <br />
-                    <a
-                      class="purple-text text-lighten-5"
-                      href="https://github.com/stravis11/NewsScraper"
-                      >GitHub Repo</a
-                    >
-                  </p>
-                </div>
-                <div class="card-reveal  black">
-                  <span class="card-title purple-text text-lighten-5"
-                    >Mongo News Scraper <i class="mdi-navigation-close right"></i
-                  ></span>
-                  <p>
-                    A web app that scrapes news articles from the New York Times website. Users are able to save articles and add notes/comments to each saved article.
-                  </p>
-                </div>
-              </div>
-            </div>            
-
-          <div class="col s12 m12 l4">
-            <div class="card hoverable black">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="./assets/images/whats4dinner.png" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator purple-text text-lighten-5"
-                  >What's 4 Dinner <i class="mdi-navigation-more-vert right"></i
-                ></span>
-                <p>
-                  <a
-                    class="purple-text text-lighten-5"
-                    href="http://whats4dinner.site"
-                    >Live Link</a
-                  >
-                  <br />
-                  <a
-                    class="purple-text text-lighten-5"
-                    href="https://github.com/stravis11/Whats4Dinner"
-                    >GitHub Repo</a
-                  >
-                </p>
-              </div>
-              <div class="card-reveal  black">
-                <span class="card-title purple-text text-lighten-5"
-                  >What's4Dinner <i class="mdi-navigation-close right"></i
-                ></span>
-                <p>
-                  Have you ever really been craving a delicious meal at your favorite restuarant, but funds were a little tight? No need to sacrifice flavor and miss out on an awesome meal. Check out What's 4 Dinner to help you out. With this app, you can select your favorite restaurant, choose your meal, and get an awesome copycat recipe to make at home! You will also have a handy ingredient list to help make the grocery trip a bit easier. If you don't see your favorite restaurant on the list, you can also search for a recipe either using ingredients you have on hand or by entering the meal you want to prepare. Happy cooking!
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m12 l4">
-            <div class="card hoverable black">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="./assets/images/fomo.png" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator purple-text text-lighten-5"
-                  >FOMOnomo <i class="mdi-navigation-more-vert right"></i
-                ></span>
-                <p>
-                  <a
-                    class="purple-text text-lighten-5"
-                    href="http://fomonomo.site"
-                    >Live Link</a
-                  >
-                  <br />
-                  <a
-                    class="purple-text text-lighten-5"
-                    href="https://github.com/stravis11/FOMO-app"
-                    >GitHub Repo</a
-                  >
-                </p>
-              </div>
-              <div class="card-reveal  black">
-                <span class="card-title purple-text text-lighten-5"
-                  >GifTastic <i class="mdi-navigation-close right"></i
-                ></span>
-                <p>
-                  Fear of Missing Out No More is a web app you use to quickly
-                  find out trending news topics, memes, popular movies/TV shows,
-                  and music. This web app was built using HTML5/Javascript,
-                  Materialize, Axios, and Firebase.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row ">
-      
-          <div class="col s12 m12 l4">
-              <div class="card hoverable black">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="./assets/images/strangerclicks.png" />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator purple-text text-lighten-5"
-                    >Stranger Clicks <i class="mdi-navigation-more-vert right"></i
-                  ></span>
-                  <p>
-                    <a
-                      class="purple-text text-lighten-5"
-                      href="https://stravis11.github.io/clickygame/"
-                      >Live Link</a
-                    >
-                    <br />
-                    <a
-                      class="purple-text text-lighten-5"
-                      href="https://github.com/stravis11/clickygame"
-                      >GitHub Repo</a
-                    >
-                  </p>
-                </div>
-                <div class="card-reveal  black">
-                  <span class="card-title purple-text text-lighten-5"
-                    >Stranger Clicks <i class="mdi-navigation-close right"></i
-                  ></span>
-                  <p>
-                    Stranger Clicks is memory game built using React.
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-              <div class="col s12 m12 l4">
-                <div class="card hoverable black">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="./assets/images/healthypet.jpg" />
-                  </div>
-                  <div class="card-content">
-                    <span class="card-title activator purple-text text-lighten-5"
-                      >HealthyPets
-                      <i class="mdi-navigation-more-vert right"></i
-                    ></span>
-                    <p>
-                        <a
-                        class="purple-text text-lighten-5"
-                        href="https://healthypets.herokuapp.com/"
-                        >Heroku Link</a
-                      >
-                      <br />
-                      <a
-                        class="purple-text text-lighten-5"
-                        href="https://github.com/kschroeder20/healthy-pets"
-                        >GitHub Repo</a
-                      >
-                    </p>
-                  </div>
-                  <div class="card-reveal  black">
-                    <span class="card-title purple-text text-lighten-5"
-                      >HealthyPets <i class="mdi-navigation-close right"></i
-                    ></span>
-                    <p>
-                      This app is designed to give you a convenient place to store all of the details of your pets' lives from their food preference to veterinary appointments. HealthyPets is full MERN stack app.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-
-          <div class="col s12 m12 l4">
-            <div class="card hoverable black">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="./assets/images/burger.png" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator purple-text text-lighten-5"
-                >Eat-Da-Burger
-                  <i class="mdi-navigation-more-vert right"></i
-                ></span>
-                <p>
-                  <a
-                    class="purple-text text-lighten-5"
-                    href="https://warm-thicket-22710.herokuapp.com/"
-                    >Heroku Link</a
-                  >
-                  <br />
-                  <a
-                    class="purple-text text-lighten-5"
-                    href="https://github.com/stravis11/burger"
-                    >GitHub Repo</a
-                  >
-                </p>
-              </div>
-              <div class="card-reveal  black">
-                <span class="card-title purple-text text-lighten-5"
-                  >Eat-Da-Burger <i class="mdi-navigation-close right"></i
-                ></span>
-                <p>
-                  A burger logging app utilizing MySQL, Node, Express, Handlebars and a custom ORM. 
-                </p>
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
+      <div class="pane">
+        <h2 class="cmd">$ ls toolbox/</h2>
+        <ul class="toolbox">
+          <li>python/</li><li>typescript/</li><li>react/ next/</li><li>node/</li><li>three.js/</li><li>gtk4/ qml/</li><li>docker/</li><li>vllm/</li><li>linux/ arch/</li><li>hyprland/</li>
+        </ul>
       </div>
-    </div>
+    </section>
 
-    <!-- Skill Sets -->
-    <div class="section" style="background-color: #101010;" id="skillsets">
-      <div class="container">
-        <div class="row">
-          <h1 class="center white-text">
-            My Skills
-          </h1>
-        </div>
-        <div class="row center">
-          <div class="col s12 m12 l3">
-            <img class="responsive-img" />
-            <i class="fab fa-html5 fa-8x"></i>
-          </div>
-          <div class="col s12 m12 l3">
-            <img class="responsive-img" />
-            <i class="fab fa-css3-alt fa-8x"></i>
-          </div>
-          <div class="col s12 m12 l3">
-            <img class="responsive-img" />
-            <i class="fab fa-js-square fa-8x"></i>
-          </div>
-          <div class="col s12 m12 l3">
-            <img class="responsive-img" />
-            <i class="fab fa-node fa-8x"></i>
-          </div>
-                 </div>
-      </div>
-    </div>
-
-    <!-- FIXED ACTION BUTTON -->
-    <div class="fixed-action-btn vertical">
-      <a class="btn-floating btn-large  blue-grey darken-4">
-        <i class="fas fa-globe"></i>
-      </a>
-      <ul>
+    <section id="more" class="section" aria-labelledby="more-h">
+      <h2 id="more-h" class="label">// more experiments</h2>
+      <ul class="more">
         <li>
-          <a
-            class="btn-floating  blue darken-4"
-            href="https://www.facebook.com/stevetravis11"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
+          <span class="more-name">BTC Dashboard</span>
+          <span class="more-desc">Live price, Fear &amp; Greed, network stats, halving countdown</span>
+          <span class="stack">next.js</span>
+          <a href="https://btc-dashboard-gamma.vercel.app">[live]</a>
         </li>
         <li>
-          <a
-            class="btn-floating cyan lighten-1"
-            href="https://twitter.com/stravis"
-            ><i class="fab fa-twitter"></i
-          ></a>
+          <span class="more-name">Bible Verse</span>
+          <span class="more-desc">Scheduled verses by email in six languages</span>
+          <span class="stack">next · supabase · resend</span>
+          <a href="https://bible-text.vercel.app">[live]</a>
         </li>
         <li>
-          <a
-            class="btn-floating grey darken-3"
-            href="https://github.com/stravis11"
-          >
-            <i class="fab fa-github"></i
-          ></a>
+          <span class="more-name">NT → OT Scripture Map</span>
+          <span class="more-desc">3D graph of New-to-Old Testament cross references</span>
+          <span class="stack">python · 3d</span>
+          <a href="https://github.com/stravis11/Bible3D">[source]</a>
         </li>
         <li>
-          <a
-            class="btn-floating blue-grey lighten-1"
-            href="https://www.linkedin.com/in/stevetravis11/"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
+          <span class="more-name">GA Legislature Transcripts</span>
+          <span class="more-desc">Download, transcribe and summarize General Assembly sessions</span>
+          <span class="stack">yt-dlp · whisper</span>
+          <a href="https://opendomega.vercel.app">[live]</a>
+        </li>
+        <li>
+          <span class="more-name">CryptoStock Watcher</span>
+          <span class="more-desc">BTC and stock watchlist with rate-limit-aware fetching</span>
+          <span class="stack">html · ts</span>
+          <a href="https://asset-tracker-ruby-zeta.vercel.app">[live]</a>
         </li>
       </ul>
+      <p class="note">Older bootcamp projects live on in the <a href="https://github.com/stravis11?tab=repositories">repo archive</a>.</p>
+    </section>
+
+    <section id="contact" class="section contact" aria-labelledby="contact-h">
+      <h2 id="contact-h" class="cmd">$ contact --steve</h2>
+      <a class="email" href="mailto:stevetravis11@gmail.com">stevetravis11@gmail.com</a>
+      <p class="links"><a href="https://github.com/stravis11">github</a><a href="https://www.linkedin.com/in/stevetravis11/">linkedin</a></p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="foot-inner">
+      <span>© 2026 Steve Travis</span>
+      <span>built on Omarchy · served from GitHub Pages</span>
     </div>
-    <!-- Contact Me Section -->
-    <div
-      class="section"
-      style="background-color: rgb(54, 52, 52);"
-      id="contact"
-    >
-      <div class="container">
-        <div class="row">
-          <h1 class="center white-text">
-            Contact Me
-          </h1>
-        </div>
-        <div class="row center">
-          <div class="col s12 m12 l6">
-            <a href="mailto:stevetravis11@gmail.com"
-              ><img class="responsive-img"/>
+  </footer>
 
-              <i class="fas fa-envelope-open-text fa-9x"></i
-            ></a>
-            <h6 class="center">Email: stevetravis11@gmail.com</h6>
-          </div>
-          <div class="col s12 m12 l6">
-            
-              <img class="responsive-img"/>
-
-              <i class="fas fa-mobile-alt fa-9x"></i
-            >
-            <h6 class="center">Phone: ‪(678)359-2153‬</h6>
-          </div>
-      </div>
-    </div>
-    <!-- Footer Section -->
-    <footer class="section page-footer black">
-      <div class="container center-align">
-        &#169; Steve Travis 2019
-      </div>
-    </footer>
-
-    <script
-      src="https://code.jquery.com/jquery-3.4.0.min.js"
-      integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="./assets/js/app.js"></script>
-  </body>
+  <script src="assets/js/site.js"></script>
+</body>
 </html>
